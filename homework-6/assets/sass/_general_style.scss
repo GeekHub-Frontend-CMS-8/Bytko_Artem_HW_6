@@ -1,0 +1,31 @@
+body{
+  font-family: $family;
+}
+a:hover, a{
+  color: inherit;
+  text-decoration: inherit;
+}
+p{
+  font-size: $standart-font-size;
+}
+h2{
+  font-size: $section-title;
+  font-weight: 700;
+  color: $main_color;
+}
+h2::before{
+  content: '';
+  margin: 20px auto;
+  width: 60px;
+  height: 4px;
+  background-color: #212121;
+  opacity: 0.6;
+}
+.wrap{
+  margin: 0 auto;
+  max-width: 1170px;
+  box-sizing: border-box;
+}
+.upper{
+  text-transform: uppercase;
+}

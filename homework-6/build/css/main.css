@@ -1,0 +1,95 @@
+header {
+  width: 100%;
+  padding-top: 30px;
+  background-image: url("../img/bg_element_.png");
+  background-size: cover; }
+
+.nav_and_logo_block {
+  display: flex;
+  justify-content: space-between; }
+
+.logo {
+  text-align: center; }
+
+.logo_title {
+  margin: 10px 0 5px;
+  font-size: 14px; }
+
+.logo_desc {
+  font-size: 4px; }
+
+.menu_items {
+  max-width: 460px;
+  padding-bottom: 10px;
+  display: inline-flex;
+  justify-content: space-between; }
+
+.menu_items:not(:first-child) {
+  margin-left: 40px;
+  text-transform: uppercase; }
+
+.menu_items:hover {
+  border-bottom: solid #4d4d4d 2px; }
+
+.header_content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+.main_titile {
+  margin-top: 175px;
+  font-size: 90px;
+  color: #4d4d4d;
+  font-weight: 500; }
+
+.desc {
+  font-size: 22px;
+  opacity: 0.54;
+  color: #4d4d4d;
+  margin-bottom: 30px;
+  font-weight: 500; }
+
+.btn-header-1, .btn-header-2 {
+  width: 160px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500; }
+
+.btn-header-1 {
+  box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; }
+
+.btn-header-2 {
+  margin-left: 20px;
+  border: 1px solid #4d4d4d; }
+
+body {
+  font-family: "Asap", sans-serif; }
+
+a:hover, a {
+  color: inherit;
+  text-decoration: inherit; }
+
+p {
+  font-size: 16px; }
+
+h2 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #4d4d4d; }
+
+h2::before {
+  content: '';
+  margin: 20px auto;
+  width: 60px;
+  height: 4px;
+  background-color: #212121;
+  opacity: 0.6; }
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1170px;
+  box-sizing: border-box; }
+
+.upper {
+  text-transform: uppercase; }
