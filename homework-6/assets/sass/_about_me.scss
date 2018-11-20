@@ -1,0 +1,22 @@
+.about_me{
+  width: 100%;
+  padding: 110px 0px 125px;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+.content_about_me{
+  h2{
+    margin-top: 70px;
+    max-width: 315px;
+    &:before{
+      margin: 20px 0;
+    }
+  }
+  p{
+    margin: 10px 0 35px;
+    max-width: 470px;
+  }
+}
+
