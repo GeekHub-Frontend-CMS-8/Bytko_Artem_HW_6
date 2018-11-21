@@ -1,0 +1,20 @@
+.service{
+  padding: 120px 0 20px;
+  background-color: $black-section;
+  h2{
+    margin-bottom: 55px;
+  }
+}
+.service-item{
+  padding: 0;
+  margin-bottom: 90px;
+  text-align: center;
+}
+.service-item{
+  img{
+    height: 75px;
+  }
+  h3{
+    margin-top: 15px;
+  }
+}

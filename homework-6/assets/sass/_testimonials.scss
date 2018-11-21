@@ -1,0 +1,49 @@
+.testimonials{
+  padding: 110px 0 125px;
+  h2{
+    margin-bottom: 60px;
+  }
+}
+.carousel{
+  max-width: 955px;
+  margin: 0 auto;
+}
+.carousel-inner{
+  border: 1px solid #212121;
+  box-sizing: border-box;
+}
+.resume{
+  margin: 80px 75px 100px 120px;
+  display: inline-flex;
+}
+.foto{
+  width: 160px;
+  height: 160px;
+}
+.resume-text{
+  margin-left: 30px;
+  color: $second-color;
+}
+.name{
+opacity: 0.9;
+  font-size: 30px;
+}
+.trade{
+  margin: 10px 0 20px;
+  font-style: italic;
+  font-size: 12px;
+  opacity: 0.9;
+}
+.bio{
+  opacity: 0.6;
+}
+.carousel-indicators li{
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border: 1px solid $second-color;
+}
+.carousel-indicators .active{
+  background-color: #000;
+}
+

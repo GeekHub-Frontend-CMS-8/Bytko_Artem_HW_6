@@ -1,0 +1,44 @@
+.portfolio {
+  width: 100%;
+  padding: 120px 0 115px;
+  background-color: $black-section;
+}
+
+.item {
+  position: relative;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  font-size: 28px;
+}
+
+.next {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  opacity: 0;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  text-decoration: none;
+}
+
+.item:hover{
+  box-shadow: 0 0 37px 12px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  .next{
+    opacity: 0.8;
+    background-color: #fff;
+  }
+}
+.load-more {
+  padding: 20px 50px;
+}
+
+

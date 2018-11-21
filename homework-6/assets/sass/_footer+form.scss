@@ -1,0 +1,62 @@
+footer {
+  background-image: url("../img/contact_bg.png");
+  background-size: cover;
+  padding-top: 130px;
+  h2{
+color: #fff;
+  }
+  h2:before{
+    background-color: #fff;
+  }
+}
+
+form {
+  max-width: 830px;
+  margin: 30px auto;
+  color: $second-color;
+  .btn{
+    padding: 10px 30px;
+    background-color: #fff;
+    margin:30px auto 0;
+    i{
+      margin-left: 5px;
+    }
+  }
+}
+.padding{
+  padding: 25px 10px;
+}
+.message-div{
+  margin-top: 30px;
+}
+.message {
+  height: 210px;
+}
+.go-head-btn{
+  position: absolute;
+  right: 30px;
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 1px solid $main_color;
+}
+.social-block{
+  padding: 30px 0 10px;
+  border-top: 1px solid #fff;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $main_color;
+  background-color: #fff;
+}
+.icon:hover{
+  background-color: #0084b4;
+}
+.right{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}

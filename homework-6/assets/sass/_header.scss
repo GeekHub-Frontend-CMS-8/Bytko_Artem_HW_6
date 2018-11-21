@@ -1,53 +1,63 @@
-header{
+header {
   width: 100%;
   background-image: url("../img/bg_element_.png");
   background-size: cover;
 
 }
-.navbar{
+
+.navbar {
   padding: .5rem 0;
 }
+
 .navbar-brand {
   text-align: center;
 }
-  .logo_title {
-    margin: 0;
-    font-size: 14px;
-  }
-  .logo_desc {
-    margin: 0;
-    font-size: 4px;
-  }
-.nav-item{
+
+.logo_title {
+  margin: 0;
+  font-size: 14px;
+}
+
+.logo_desc {
+  margin: 0;
+  font-size: 4px;
+}
+
+.nav-item {
   color: $main_color;
 }
-.nav-item:not(:first-child){
+
+.nav-item:not(:first-child) {
   text-transform: uppercase;
 }
-.nav-link{
+
+.nav-link {
 }
-.nav-link:hover{
+
+.nav-link:hover {
   border-bottom: solid $nav-item-line 2px;
 }
-.header_img{
+
+.header_img {
   margin-top: 15px;
 }
-.main_titile{
+
+.main_titile {
   margin-top: 175px;
   font-size: $main-title;
   color: $main_color;
   font-weight: 500;
 }
-.desc{
+
+.desc {
   font-size: 22px;
   opacity: 0.54;
   color: $main_color;
   margin-bottom: 30px;
   font-weight: 500;
- }
+}
 
-
-.btn-header{
+.btn-header {
   width: 160px;
   height: 50px;
   margin-right: 20px;
