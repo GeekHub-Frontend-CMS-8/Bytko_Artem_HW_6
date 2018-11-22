@@ -1,20 +1,23 @@
-.result{
-background-color: $black-section;
+.result {
+  background-color: $black-section;
   padding: 70px 0 60px;
+  margin-bottom: 150px;
 }
-.result-item{
+
+.result-item {
   text-align: center;
   color: #212121;
-  h3{
+  h3 {
     font-size: 30px;
     margin: 30px 0 20px;
   }
-  p{
+  p {
     text-transform: uppercase;
     font-size: 22px;
   }
 }
-.result-img{
+
+.result-img {
   height: 100px;
   display: inline-flex;
   align-items: flex-end;
